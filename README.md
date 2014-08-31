@@ -11,8 +11,8 @@ Utility to push configuration files to Junos devices using Netconf
 * SSH private key and password authentication
 
 ## REQUIREMENTS
-*Tested on python2.7
-*junos-pyez library (https://github.com/Juniper/py-junos-eznc)
+* Tested on python2.7
+* junos-pyez library (https://github.com/Juniper/py-junos-eznc)
 
 ## USAGE
 
