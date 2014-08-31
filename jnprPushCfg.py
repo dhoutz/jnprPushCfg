@@ -124,6 +124,7 @@ for device in devices:
 			print("Confirmation bypassed")
 			dev.cfg.commit()
 			dev.close()
+			continue
 		else:
 			print('The following changes will be applied:')
 			diff = dev.cfg.pdiff()
