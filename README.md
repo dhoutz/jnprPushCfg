@@ -5,6 +5,14 @@ Utility to push configuration files to Junos devices using Netconf
 
 
 ## FEATURES
+* Update configuration on remote Junos devices using text configs (curly brace format)
+* View diff (show|compare) before committing changes or override confirmation from command line
+* Input list of devices to update from file or python list
+* SSH private key and password authentication
+
+## REQUIREMENTS
+*Tested on python2.7
+*junos-pyez library (https://github.com/Juniper/py-junos-eznc)
 
 ## USAGE
 
