@@ -122,8 +122,7 @@ for device in devices:
 	if commit_check is True:
 		if args.confirm is True:
 			print("Confirmation bypassed")
-			print("Rolling back")
-			dev.cfg.rollback()
+			dev.cfg.commit()
 			dev.close()
 		else:
 			print('The following changes will be applied:')
